@@ -23,7 +23,7 @@ def ensure_dir(f):
 def main():
 
     cmaps = ["viridis", "inferno", "magma", "plasma", "cividis"]
-    nums = np.linspace(0, 256, 9, dtype=int)
+    nums = np.linspace(0, 255, 9, dtype=int)
 
     ensure_dir("cmaps")
 
