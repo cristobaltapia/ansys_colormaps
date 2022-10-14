@@ -11,3 +11,13 @@ The currently generated colormaps are:
 * cividis
 
 To generate additional colormaps edit the list of colormaps in the script.
+
+## Usage
+
+To use any of these colormaps copy them to your working directory and run the following command:
+
+```
+/cmap,viridis,cmap
+```
+
+The colormap will be loaded and used for all further plots.
